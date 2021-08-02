@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.head2 {
+    background: url(images/head_back.png) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+
+}
+.nav_bar a{
+    margin-right: 80px;
+}
+.aa {
+    display: flex;
+}
+
+.menu {
+    margin-left: 80px;
+}
+
+.head1 {
+
+    display: flex;
+}
+
+.innopolis_info2 {
+    border: 1px solid white;
+    width: 350px;
+    background: white;
+    text-align: center;
+    margin-left: 900px;
+    margin-top: 10px;
+    color: rgb(17, 13, 13);
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    border-radius: 10%;
+}
+
+.card {
+    width: 245px;
+    height: 331px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+   
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.card__hover {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgba(163, 204, 64, 0.8);
+    width: 98%;
+    height: 100%;
+    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+    overflow: hidden;
+    height: 153px;
+    border-radius: 10px;
+    bottom: 7px;
+    padding-top: 70px;
+    text-align: center;
+ 
+    
+}
+
+.main_center {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-right: 50px;
+    border: none;
+    color: white;
+    text-align: end;
+    background: url(images/Group\ 3.png) no-repeat center/cover;
+    height: 500px;
+    position: relative;
+    line-height: 30px;
+}
+
+.podarok {
+    text-align: end;
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.podarok_img {
+    position: absolute;
+    border-radius: 100%;
+    left: 100px;
+    top: -120px;
+
+}
+
+.df {
+    display: flex;
+}
+
+.card__box{
+    display:flex;
+}
+
+.box5{
+    background: url(images/group.png) no-repeat center/cover;
+    margin-top: 150px;
+    border: none;
+    height: 792px;
+    margin: 0;
+    padding: 0;
+}
+.boxx{
+    display: flex;
+}
+.boxx__1{
+    width: 20%;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 9px;
+    margin: 50px;
+}
+.boxx__1 img{
+    width: 100%;
+}
+.head1{
+background:url(images/green.png);
+}
+.head3{
+text-align: left;
+}
+.head1{
+display: flex;
+}
+.box{
+display: flex;
+}
+.box2{
+display: flex;
+}
+.box2 div{
+width: 20%;
+margin: 50px;
+}
+.head11{
+background: url(images/green.png);
+padding: 80px;
+margin:5%;
+}
+.box0{
+display: flex;
+}
+.head12{
+width: 30%;
+color: white;
+}
+
+
+footer {
+    color: white;
+}
+
+
+
+footer a {
+    color: white;
+}
+
+
+
+
+
+
