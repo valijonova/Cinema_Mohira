@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background: url(images/head_back.png) no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+}
+
+.innopolis_logo {
+  padding: 0px 0px 0px 40px;
+}
+
+.nav__box ul {
+  list-style: none;
+  display: flex;
+  padding-left: 20px;
+}
+.nav__box ul li {
+  padding: 20px 0 0 0;
+}
+.nav__box a {
+  text-decoration: none;
+  color: white;
+}
+
+.language {
+  padding-left: 150px;
+}

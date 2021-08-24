@@ -44,8 +44,10 @@ body {
 .head2 {
   background: url(images/head_back.png) no-repeat center/cover;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   padding: 50px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 99%);
+  position: relative;
 }
 .nav_bar a {
   margin-right: 80px;
@@ -53,7 +55,6 @@ body {
 .aa {
   display: flex;
 }
-
 .menu {
   margin-left: 80px;
 }
@@ -64,16 +65,18 @@ body {
 
 .innopolis_info2 {
   border: 1px solid white;
-  width: 350px;
   background: white;
   text-align: center;
-  margin-left: 900px;
-  margin-top: 10px;
+  margin-left: 400px;
+  margin-top: 2px;
   color: rgb(17, 13, 13);
   position: absolute;
-  bottom: -100px;
-  right: 0;
-  border-radius: 10%;
+  bottom: 285px;
+  right: 130px;
+  border-radius: 5%;
+  height: 60px;
+  width: 423px;
+  padding: 10px 0 70px 0;
 }
 
 .card {
@@ -127,17 +130,20 @@ body {
   font-size: 40px;
   padding-top: 100px;
   padding-right: 50px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 99%);
 }
 
 .podarok_img {
   position: absolute;
   border-radius: 100%;
-  left: 100px;
-  top: -120px;
+  left: 111px;
+  top: -164px;
 }
 
 .df {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__box {
@@ -145,9 +151,9 @@ body {
 }
 
 .img__style {
-     height: 269px;
-     width: 391px;
- }  
+  height: 169px;
+  width: 245px;
+}
 .box5 {
   background: url(images/group.png) no-repeat center/cover;
   margin-top: 150px;
@@ -317,14 +323,16 @@ footer a {
   margin: auto;
   border-collapse: collapse;
   color: white;
+  margin-top: 63px;
+  margin-left: 109px;
 }
 .two {
   background-color: #373737;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 #table tr {
-  height: 50px;
+  height: 45px;
 }
 .one {
   background-color: #4d4c4f;
@@ -336,6 +344,7 @@ footer a {
   color: white;
   font-size: 20px;
   font-weight: 600;
+  text-align: start;
 }
 .check {
   width: 80px;
@@ -352,9 +361,7 @@ ul a {
 }
 
 .box1__text {
-  width: 389px;
   text-align: center;
-  margin: 10px 10px 10px 10px;
 }
 
 .box1__text p,
@@ -363,9 +370,9 @@ h1 {
 }
 
 .box1 {
-  margin: 50px 55px 55px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 50px 55px 55px 63px;
+  margin-top: 80px;
+  margin-bottom: -10px;
 }
 
 .contenier {
@@ -375,4 +382,20 @@ h1 {
 
 .box0 p {
   margin-bottom: 50px;
+}
+
+.section_heading {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  color: #a3cc40;
+  padding: 2px 0 16px 0;
+  margin-left: 110px;
+}
+
+.section__text {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 4px;
+  font-size: 11px;
 }
